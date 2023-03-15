@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:windowSoftInputMode="adjustResize"
+    android:background="#000000"
+    tools:context=".View_GamesSaved">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/etSavedGames"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="40dp"
+            android:backgroundTint="#ffffff"
+            android:cursorVisible="false"
+            android:editable="false"
+            android:enabled="false"
+            android:fontFamily="@font/roboto_thin"
+            android:gravity="center"
+            android:hint="@string/etSavedGames"
+            android:lineHeight="0dp"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColorHint="@color/colorTurquoise0"
+            android:textSize="30sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvSavedGames"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_above="@+id/llBottom"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="5dp"
+            tools:listitem="@layout/adapter_savedgames"
+            android:background="#000000"
+            >
+        </android.support.v7.widget.RecyclerView>
+
+        <LinearLayout
+            android:id="@+id/llBottom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/gradient7"
+            android:orientation="horizontal" >
+
+            <Space
+                android:layout_width="40dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/btnEditGameName"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_edit_black_24dp"/>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/btnRestartGame"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_play_arrow_black_24dp"/>
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/btnReviewGame"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_remove_red_eye_black_24dp"/>
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/btnDeleteGame"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_content_cut_black_24dp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/bLayer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorTransparent"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="340dp"
+            android:layout_height="322dp"
+            android:layout_gravity="center"
+            android:id="@+id/fragmentPlace">
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="340dp"
+            android:layout_height="260dp"
+            android:layout_gravity="center"
+            android:id="@+id/fragmentPlace2">
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="300dp"
+    tools:context=".Fragment.Fragment_GI_Pvp"
+    android:background="@drawable/gradient9">
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/etPauseTitle"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="95dp"
+        android:backgroundTint="#ffffff"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:enabled="false"
+        android:fontFamily="@font/roboto_thin"
+        android:gravity="center"
+        android:hint="@string/etPauseTitle"
+        android:lineHeight="0dp"
+        android:singleLine="true"
+        android:textColorHint="@color/colorTurquoise0"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/btnPvpResume"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@+id/btnResignPvp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/gradient12"
+        android:text="@string/btnPvpResume"
+        android:fontFamily="@font/roboto_thin"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btnResignPvp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/gradient12"
+        android:text="@string/btnPvIaResign"
+        android:fontFamily="@font/roboto_thin"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textSize="22sp"/>
+
+</RelativeLayout>

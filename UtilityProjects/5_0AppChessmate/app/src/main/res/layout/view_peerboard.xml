@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/peer_board"
+    tools:context=".View_PeerBoard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnBCircle0"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/tvLinking"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/ic_circular_shape_silhouette"
+            android:clickable="false"/>
+
+        <Button
+            android:id="@+id/btnKnight"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/tvLinking"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="85dp"
+            android:background="@drawable/ic_knight"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnBluetooth"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_below="@+id/tvLinking"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="246dp"
+            android:background="@drawable/ic_bluetooth_connected_black_24dp"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnBCircle1"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/btnBluetooth"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_circular_shape_silhouette"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnBoard"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/btnBluetooth"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="216dp"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/ic_chess"
+            android:clickable="false" />
+
+        <TextView
+            android:id="@+id/tvLinking"
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="45dp"
+            android:fontFamily="@font/roboto_thin"
+            android:text="@string/tvLinking"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/colorTurquoise0" />
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvLinking"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="175dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/tvUserName"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvUserStatus"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvLinking"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="195dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/tvUserStatus"
+            android:textColor="#4E4D4D" />
+
+        <TextView
+            android:id="@+id/tvBoardName"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnBluetooth"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="131dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/tvBoardName"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvBoardStatus"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnBluetooth"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="42dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/tvBoardStatus"
+            android:textColor="#4E4D4D" />
+    </RelativeLayout>
+
+</RelativeLayout>

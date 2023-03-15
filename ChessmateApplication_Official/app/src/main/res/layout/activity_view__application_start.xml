@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bandw"
+    tools:context=".View_ApplicationStart">
+
+    <TextView
+        android:id="@+id/tvChess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnCreateAcc"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="180dp"
+        android:fontFamily="@font/fluent_sitkasmall"
+        android:text="@string/tvChess"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tvMate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnCreateAcc"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="187dp"
+        android:layout_marginBottom="180dp"
+        android:fontFamily="@font/fluent_sitkasmall"
+        android:text="@string/tvMate"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/gradient1"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/btnLogin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnCreateAcc"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/btnLogin"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/gradient1"
+        android:text="@string/btnCreateAcc"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="#000000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Button
+        android:id="@+id/btnNoAcc"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/btnLogin"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/gradient1"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/btnNoAcc"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000" />
+
+</RelativeLayout>

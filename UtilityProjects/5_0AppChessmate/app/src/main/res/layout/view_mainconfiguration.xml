@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".View_MainConfiguration">
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/etConfig"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnAccept"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="425dp"
+        android:backgroundTint="#ffffff"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:enabled="false"
+        android:fontFamily="@font/roboto_thin"
+        android:gravity="center"
+        android:hint="@string/etConfig"
+        android:lineHeight="0dp"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColorHint="@color/colorTurquoise0"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/btnAccept"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/gradient0"
+        android:fontFamily="@font/roboto_thin"
+        android:text="@string/btnAccept"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tvAutoSaved"
+        android:layout_width="152dp"
+        android:layout_height="96dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="192dp"
+        android:layout_marginBottom="375dp"
+        android:fontFamily="@font/roboto_thin"
+        android:text="@string/tvAutoSaved"
+        android:textColor="@color/colorTurquoise0"
+        android:textSize="26sp" />
+
+    <Switch
+        android:id="@+id/swAutoSaved"
+        android:layout_width="144dp"
+        android:layout_height="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="421dp"
+        android:minWidth="25dp"
+        android:scaleX="1"
+        android:scaleY=".6"
+        android:switchPadding="20dp"
+        android:thumb="@drawable/switch_thumb"
+        android:track="@drawable/switch_track" />
+
+    <TextView
+        android:id="@+id/tvLocalGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="266dp"
+        android:layout_marginBottom="359dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/tvLocalGame"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tvUseBoard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="203dp"
+        android:layout_marginBottom="321dp"
+        android:fontFamily="@font/roboto_thin"
+        android:text="@string/tvUseBoard"
+        android:textColor="@color/colorTurquoise0"
+        android:textSize="26sp" />
+
+    <Switch
+        android:id="@+id/swUseBoard"
+        android:layout_width="144dp"
+        android:layout_height="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="319dp"
+        android:minWidth="25dp"
+        android:scaleX="1"
+        android:scaleY=".6"
+        android:switchPadding="20dp"
+        android:thumb="@drawable/switch_thumb"
+        android:track="@drawable/switch_track" />
+
+    <TextView
+        android:id="@+id/tvOnlineGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="258dp"
+        android:layout_marginBottom="279dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/tvOnlineGame"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnChat"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="303dp"
+        android:layout_marginBottom="223dp"
+        android:background="@drawable/ic_forum_black_24dp" />
+
+    <TextView
+        android:id="@+id/tvChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="235dp"
+        android:layout_marginBottom="225dp"
+        android:fontFamily="@font/roboto_thin"
+        android:text="@string/tvChat"
+        android:textColor="@color/colorTurquoise0"
+        android:textSize="26sp" />
+
+    <Switch
+        android:id="@+id/swChat"
+        android:layout_width="144dp"
+        android:layout_height="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="222dp"
+        android:minWidth="25dp"
+        android:scaleX="1"
+        android:scaleY=".6"
+        android:switchPadding="20dp"
+        android:thumb="@drawable/switch_thumb"
+        android:track="@drawable/switch_track" />
+
+    <Button
+        android:id="@+id/btnNotif"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="303dp"
+        android:layout_marginBottom="151dp"
+        android:background="@drawable/ic_sms_failed_black_24dp" />
+
+    <TextView
+        android:id="@+id/tvNotif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="155dp"
+        android:fontFamily="@font/roboto_thin"
+        android:text="@string/tvNotif"
+        android:textColor="@color/colorTurquoise0"
+        android:textSize="26sp" />
+
+    <Switch
+        android:id="@+id/swNotif"
+        android:layout_width="144dp"
+        android:layout_height="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="150dp"
+        android:minWidth="25dp"
+        android:scaleX="1"
+        android:scaleY=".6"
+        android:switchPadding="20dp"
+        android:thumb="@drawable/switch_thumb"
+        android:track="@drawable/switch_track" />
+
+</RelativeLayout>

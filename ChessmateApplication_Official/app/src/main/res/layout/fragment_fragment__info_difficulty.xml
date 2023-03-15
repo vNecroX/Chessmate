@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="250dp"
+    tools:context=".Fragment_InfoDifficulty"
+    android:background="@drawable/gradient9" >
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/etDifficultyTitle"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="95dp"
+        android:backgroundTint="#ffffff"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:enabled="false"
+        android:fontFamily="@font/roboto_thin"
+        android:gravity="center"
+        android:hint="@string/etDifficultyTitle"
+        android:lineHeight="0dp"
+        android:singleLine="true"
+        android:textColorHint="@color/colorTurquoise0"
+        android:textSize="24sp"/>
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/etEmptyOne"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="95dp"
+        android:backgroundTint="@color/colorTurquoise0"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:enabled="false"
+        android:gravity="center"
+        android:lineHeight="0dp"
+        android:singleLine="true"
+        android:layout_below="@id/etDifficulty" />
+
+    <TextView
+        android:id="@+id/tVEasyInfo"
+        android:layout_width="310dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_alignBottom="@+id/btnDifficulty"
+        android:layout_marginBottom="45dp"
+        android:gravity="center"
+        android:text="● Se pueden ver los movimientos posibles de una pieza al tocarla. \n\n● No existe límite de tiempo. \n\n● Se puede retoceder movimientos ilimitadamente. "/> -->
+
+   <TextView
+        android:id="@+id/tVIntermediateInfo"
+        android:layout_width="310dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_alignBottom="@+id/btnDifficulty"
+        android:layout_marginBottom="45dp"
+        android:gravity="center"
+        android:text="● Se pueden ver los movimientos posibles de una pieza al tocarla. \n\n● Límite de tiempo es de 15 minutos. \n\n● Solo es posible retroceder 5 movimientos en total."/>
+
+    <TextView
+        android:id="@+id/tVDifficultInfo"
+        android:layout_width="310dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_alignBottom="@+id/btnDifficulty"
+        android:layout_marginBottom="45dp"
+        android:gravity="center"
+        android:text="● No se pueden los movimientos posibles de una al tocarla. \n\n● Límite de tiempo es de 5 minutos. \n\n● No se pueden retroceder movimientos. "/>
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/etEmptyTwo"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etEmptyOne"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="95dp"
+        android:backgroundTint="@color/colorTurquoise0"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:enabled="false"
+        android:gravity="center"
+        android:lineHeight="0dp"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btnDifficulty"
+        android:layout_width="60dp"
+        android:layout_height="34dp"
+        android:layout_below="@+id/etDifficultyTitle"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/gradient8"
+        android:fontFamily="@font/roboto_thin"
+        android:text="@string/btnDifficulty"
+        android:textSize="17sp" />
+
+
+
+</RelativeLayout>

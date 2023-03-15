@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:paddingTop="5sp"
+    android:paddingLeft="10sp"
+    android:paddingRight="10sp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvMessages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@android:color/transparent"
+        card_view:cardElevation="0dp">
+
+        <LinearLayout
+            android:id="@+id/messageBG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/out_message_bgk"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ajua"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:fontFamily="@font/roboto_bold"
+                android:maxWidth="200sp"/>
+            <TextView
+                android:id="@+id/tvMssgTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:00 PM"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:fontFamily="@font/roboto_thin" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

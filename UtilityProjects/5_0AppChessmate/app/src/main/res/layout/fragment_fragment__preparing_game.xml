@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="250dp"
+    tools:context=".Fragment.Fragment_PreparingGame"
+    android:background="@drawable/gradient9">
+
+    <LinearLayout
+        android:id="@+id/llPreparingGame"
+        android:layout_width="330dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/gradient8">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/tvFirstRowPrepGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/tvFirstRowPrepGame"
+            android:textSize="24sp"
+            android:fontFamily="@font/roboto_thin" />
+
+        <TextView
+            android:id="@+id/tvSecondRowPrepGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/tvSecondRowPrepGame"
+            android:textSize="24sp"
+            android:fontFamily="@font/roboto_thin" />
+
+        <TextView
+            android:id="@+id/tvThirdRowPrepGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/tvThirdRowPrepGame"
+            android:textSize="24sp"
+            android:fontFamily="@font/roboto_thin" />
+
+        <TextView
+            android:id="@+id/tvFourthRowPrepGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/tvFourthRowPrepGame"
+            android:textSize="24sp"
+            android:fontFamily="@font/roboto_thin" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnPrepGameDecline"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/llPreparingGame"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="210dp"
+        android:background="@drawable/gradient8"
+        android:fontFamily="@font/roboto_thin"
+        android:text="@string/btnCreateAccDecline"
+        android:textAllCaps="false"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnPrepGameAccept"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/llPreparingGame"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/gradient8"
+        android:fontFamily="@font/roboto_thin"
+        android:text="@string/btnCreateAccAccept"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.grauben98.esteb.appchessmate">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".View_BluetoothDummy"></activity>
+        <activity android:name=".View_ConnectBoard" />
+        <activity android:name=".View_EditProfile" />
+        <activity android:name=".View_BluetoothDevice" />
+        <activity android:name=".View_SavedGames" />
+        <activity android:name=".View_GamersList" />
+        <activity android:name=".View_GI_PvPLocal" />
+        <activity android:name=".View_Intro" />
+        <activity android:name=".View_PeerOnline" />
+        <activity android:name=".View_PeerBoard" />
+        <activity android:name=".View_PeerLocalWifi" />
+        <activity android:name=".View_PeerLocalBluetooth" />
+        <activity android:name=".View_Difficulty" />
+        <activity android:name=".View_PreparingGame" />
+        <activity android:name=".View_PiecesColor" />
+        <activity android:name=".View_CreateAccount" />
+        <activity android:name=".View_MainConfiguration" />
+        <activity android:name=".View_GI_PvIA" />
+        <activity android:name=".View_Login" />
+        <activity android:name=".View_SavedMovements" />
+        <activity android:name=".View_ApplicationStart" />
+        <activity android:name=".View_GI_PvPOnline" />
+            <activity android:name=".View_MainInterface" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

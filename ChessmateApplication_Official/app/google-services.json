@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "416241837070",
+    "firebase_url": "https://chessmateappfirebase.firebaseio.com",
+    "project_id": "chessmateappfirebase",
+    "storage_bucket": "chessmateappfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416241837070:android:06c69b9f58fb98d501085f",
+        "android_client_info": {
+          "package_name": "com.jorjaiz.chessmateapplicationv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416241837070-96a6l889895v8b8v7fe3vvag2dfqshke.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jorjaiz.chessmateapplicationv1",
+            "certificate_hash": "b0d848190a2703aaad9c16f8577043cc3ffc9de9"
+          }
+        },
+        {
+          "client_id": "416241837070-ntb31jc0cp60egv92hsrco7u9fdfau34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsbgM4xwAcbGBxopovV0nRdHl8DFDmDzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416241837070-ntb31jc0cp60egv92hsrco7u9fdfau34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

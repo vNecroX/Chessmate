@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_acc"
+    tools:context=".View_Login">
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/etLogin"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etUserPsw"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="190dp"
+        android:backgroundTint="#ffffff"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:enabled="false"
+        android:fontFamily="@font/roboto_thin"
+        android:gravity="center"
+        android:hint="@string/etLogin"
+        android:lineHeight="0dp"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColorHint="@color/colorTurquoise0" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/etUserName"
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="243dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="@color/colorTurquoise0"
+        android:cursorVisible="true"
+        android:fontFamily="@font/roboto_thin"
+        android:hint="@string/etUserName1"
+        android:lineHeight="0dp"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColorHint="#ffffff" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/etUserPsw"
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etUserName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="@color/colorTurquoise0"
+        android:cursorVisible="true"
+        android:fontFamily="@font/roboto_thin"
+        android:hint="@string/etUserPsw"
+        android:lineHeight="0dp"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColorHint="#ffffff" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="274dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/ic_keyboard_arrow_right_black_24dp" />
+
+</RelativeLayout>

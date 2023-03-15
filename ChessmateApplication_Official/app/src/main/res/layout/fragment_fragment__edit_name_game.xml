@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="340dp"
+    android:layout_height="260dp"
+    tools:context=".Fragment_EditNameGame"
+    android:background="@drawable/gradient9">
+
+    <TextView
+        android:id="@+id/etEditGameNameTitle"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="95dp"
+        android:backgroundTint="#ffffff"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:enabled="false"
+        android:fontFamily="@font/roboto_thin"
+        android:gravity="center"
+        android:hint="Cambiar nombre de Partida"
+        android:textColorHint="@color/colorTurquoise0"
+        android:textSize="28sp" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/etEditGameName"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/bEditGameName"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:backgroundTint="@color/colorTurquoise0"
+        android:cursorVisible="true"
+        android:fontFamily="@font/roboto_thin"
+        android:hint="Nuevo nombre..."
+        android:lineHeight="0dp"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColorHint="#ffffff" />
+
+    <Button
+        android:id="@+id/bEditGameName"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/gradient15"
+        android:text="Aceptar"
+        android:fontFamily="@font/roboto_thin"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textSize="22sp"/>
+
+    <Button
+        android:id="@+id/bCancelEditGameName"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/gradient15"
+        android:text="Cancelar"
+        android:fontFamily="@font/roboto_thin"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textSize="22sp"/>
+
+</RelativeLayout>

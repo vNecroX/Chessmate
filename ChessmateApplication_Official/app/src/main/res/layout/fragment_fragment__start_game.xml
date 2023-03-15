@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="340dp"
+    android:layout_height="260dp"
+    tools:context=".Fragment_PauseGame"
+    android:background="@drawable/gradient9">
+
+    <TextView
+        android:id="@+id/etStartGameTitle"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="95dp"
+        android:backgroundTint="#ffffff"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:enabled="false"
+        android:fontFamily="@font/roboto_thin"
+        android:gravity="center"
+        android:hint="Iniciar Juego?"
+        android:textColorHint="@color/colorTurquoise0"
+        android:textSize="38sp" />
+
+    <Button
+        android:id="@+id/bAccept"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@+id/bCancel"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="14dp"
+        android:background="@color/colorTinyGray"
+        android:text="Jugar"
+        android:fontFamily="@font/roboto_thin"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/bCancel"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="38dp"
+        android:background="@color/colorTinyGray"
+        android:text="Cancelar"
+        android:fontFamily="@font/roboto_thin"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textSize="22sp"/>
+
+</RelativeLayout>

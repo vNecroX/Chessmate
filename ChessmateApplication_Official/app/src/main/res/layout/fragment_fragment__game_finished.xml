@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="300dp"
+    tools:context=".Fragment_GameFinished"
+    android:background="@drawable/gradient0">
+
+    <TextView
+        android:id="@+id/tvGameStatus"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/tvGameStatus"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:fontFamily="@font/roboto_thin"
+        android:textSize="42sp"/>
+
+    <Button
+        android:id="@+id/btnGameFinishedNewGame"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@+id/btnGameFinishedExitGame"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorTinyGray"
+        android:text="@string/btnGameFinishedNewGame"
+        android:fontFamily="@font/roboto_thin"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btnGameFinishedExitGame"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="65dp"
+        android:background="@color/colorTinyGray"
+        android:text="@string/btnGameFinishedExitGame"
+        android:fontFamily="@font/roboto_thin"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textSize="22sp"/>
+
+    <Button
+        android:id="@+id/btnRewatch"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/ic_rewatch"
+        android:textAllCaps="false"
+        android:textSize="22sp"/>
+
+</RelativeLayout>

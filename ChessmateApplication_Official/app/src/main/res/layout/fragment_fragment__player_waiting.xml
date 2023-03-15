@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="120dp"
+android:layout_height="70dp"
+android:background="#575b5e"
+tools:context=".Fragment_PlayerWaiting">
+    
+    <FrameLayout
+        android:layout_width="40dp"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            android:indeterminateTint="#0d0c0d"
+            android:indeterminateTintMode="multiply" />
+        
+    </FrameLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tVw1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="42dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:fontFamily="@font/roboto_light"
+            android:text="Esperando a oponente"/>
+
+        <TextView
+            android:id="@+id/tVw2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="50dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:fontFamily="@font/roboto_light"
+            android:text="Oponente esta listo"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

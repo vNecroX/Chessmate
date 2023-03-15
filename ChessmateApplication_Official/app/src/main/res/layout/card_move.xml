@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <FrameLayout
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/gradient_blackblue_list">
+
+        <ImageView
+            android:id="@+id/iVPiece"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tVXi"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:textSize="32sp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tVYi"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:textSize="32sp"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:id="@+id/iVAction1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="134dp"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:id="@+id/iVPiece2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tVXf"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:textSize="32sp"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tVYf"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:textSize="32sp"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="10dp"/>
+
+    </FrameLayout>
+
+</FrameLayout>

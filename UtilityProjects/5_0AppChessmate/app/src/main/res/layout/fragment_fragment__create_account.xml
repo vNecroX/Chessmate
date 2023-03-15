@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="250dp"
+    tools:context=".Fragment.Fragment_CreateAccount"
+    android:background="@drawable/gradient9">
+
+    <LinearLayout
+        android:id="@+id/llCreateAccMssg"
+        android:layout_width="330dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/gradient8">
+        
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/tvFirstRowCreateAcc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/tvFirstRowCeateAcc"
+            android:textSize="24sp"
+            android:fontFamily="@font/roboto_thin" />
+
+        <TextView
+            android:id="@+id/tvSecondRowCreateAcc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/tvSecondRowCreateAcc"
+            android:textSize="24sp"
+            android:fontFamily="@font/roboto_thin" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCreateAccDecline"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/llCreateAccMssg"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="210dp"
+        android:background="@drawable/gradient8"
+        android:fontFamily="@font/roboto_thin"
+        android:text="@string/btnCreateAccDecline"
+        android:textAllCaps="false"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnCreateAccAccept"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/llCreateAccMssg"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/gradient8"
+        android:fontFamily="@font/roboto_thin"
+        android:text="@string/btnCreateAccAccept"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

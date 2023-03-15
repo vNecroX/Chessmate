@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".View_PiecesColor">
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/etColor"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnBlackeRook"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="#ffffff"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:enabled="false"
+        android:fontFamily="@font/roboto_thin"
+        android:gravity="center"
+        android:hint="@string/etColor"
+        android:lineHeight="0dp"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColorHint="@color/colorTurquoise0" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="135dp"
+        android:layout_height="69dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toStartOf="@+id/btnGray"
+        android:background="@drawable/ic_keyboard_arrow_right_black_24dp" />
+
+    <Button
+        android:id="@+id/btnGray"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/rounded_corners0"
+        android:clickable="false"/>
+
+    <Button
+        android:id="@+id/btnWhiteRook"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="82dp"
+        android:background="@drawable/ic_rook" />
+
+    <Button
+        android:id="@+id/btnWhiteColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="40dp"
+        android:background="#686868"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/btnWhiteColor"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="#000000"
+        android:clickable="false" />
+
+    <Button
+        android:id="@+id/btnWhite"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="260dp"
+        android:background="@drawable/rounded_corners1"
+        android:clickable="false"/>
+
+    <Button
+        android:id="@+id/btnBlackeRook"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginBottom="340dp"
+        android:background="@drawable/ic_rook_1" />
+
+    <Button
+        android:id="@+id/btnBlackColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="295dp"
+        android:background="#ffffff"
+        android:clickable="false"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/btnBlackColor"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/tvVersus"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="226dp"
+        android:fontFamily="@font/rockwell_italic"
+        android:text="@string/tvVersus"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        android:background="#00FFFFFF"/>
+
+</RelativeLayout>

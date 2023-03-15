@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="340dp"
+    android:layout_height="427dp"
+    tools:context=".Fragment.Fragment_OtherInterruptions"
+    android:background="@drawable/gradient9">
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/etOtherInterruptions"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="95dp"
+        android:backgroundTint="#ffffff"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:enabled="false"
+        android:fontFamily="@font/roboto_thin"
+        android:gravity="center"
+        android:hint="@string/etOtherInterruptions"
+        android:lineHeight="0dp"
+        android:singleLine="true"
+        android:textColorHint="@color/colorTurquoise0"
+        android:textSize="31sp"/>
+
+    <LinearLayout
+        android:id="@+id/llOtherInterruptions"
+        android:layout_width="330dp"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/gradient8">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:id="@+id/tvFirstRowOtherInterruptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvFirstRowOtherInterruptions"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto_thin"
+            android:paddingStart="5dp" />
+
+        <TextView
+            android:id="@+id/tvSecondRowOtherInterruptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvSecondRowOtherInterruptions"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto_thin"
+            android:paddingStart="5dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/tvThirdRowOtherInterruptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvThirdRowOtherInterruptions"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto_thin"
+            android:paddingStart="5dp" />
+
+        <TextView
+            android:id="@+id/tvFourthRowOtherInterruptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvFourthRowOtherInterruptions"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto_thin"
+            android:paddingStart="5dp" />
+
+
+        <TextView
+            android:id="@+id/tvFifthRowOtherInterruptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvFifthRowOtherInterruptions"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto_thin"
+            android:paddingStart="5dp" />
+
+        <TextView
+            android:id="@+id/tvSixthRowOtherInterruptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvSixthRowOtherInterruptions"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto_thin"
+            android:paddingStart="5dp" />
+
+        <TextView
+            android:id="@+id/tvSeventhRowOtherInterruptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvSeventhRowOtherInterruptions"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto_thin"
+            android:paddingStart="5dp" />
+
+        <TextView
+            android:id="@+id/tvEighthRowOtherInterruptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvEighthRowOtherInterruptions"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto_thin"
+            android:paddingStart="5dp" />
+
+        <TextView
+            android:id="@+id/tvNinthRowOtherInterruptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvNinthRowOtherInterruptions"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto_thin"
+            android:paddingStart="5dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/tvTenthRowOtherInterruptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvTenthRowOtherInterruptions"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto_thin"
+            android:paddingStart="5dp" />
+
+        <TextView
+            android:id="@+id/tvEleventhRowOtherInterruptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvEleventhRowOtherInterruptions"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto_thin"
+            android:paddingStart="5dp" />
+
+
+        <TextView
+            android:id="@+id/tvTwelfthRowOtherInterruptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvTwelfthRowOtherInterruptions"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto_thin"
+            android:paddingStart="5dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnOtherInterrContinueWithNoBoard"
+        android:layout_width="320dp"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="58dp"
+        android:background="@drawable/gradient8"
+        android:fontFamily="@font/roboto_thin"
+        android:text="@string/btnOtherInterrContinueWithNoBoard"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnOtherInterrContinue"
+        android:layout_width="320dp"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/gradient8"
+        android:fontFamily="@font/roboto_thin"
+        android:text="@string/btnOtherInterrContinue"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+</RelativeLayout>

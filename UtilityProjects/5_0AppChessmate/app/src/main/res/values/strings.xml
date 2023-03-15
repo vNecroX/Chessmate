@@ -1,0 +1,293 @@
+<resources>
+
+    <!--ACTIVITIES-->   <!--ACTIVITIES-->   <!--ACTIVITIES-->   <!--ACTIVITIES-->
+    <!---A   A   A   A-->
+    <!---app_name-->
+    <string name="app_name">AppChessmate</string>
+
+    <!---view_applicationstart-->
+    <string name="tvChess">CHESS</string>
+    <string name="tvMate">MATE</string>
+    <string name="btnLogin">"Inicio de sesión."</string>
+    <string name="btnCreateAcc">"Crear cuenta."</string>
+    <string name="btnNoAcc">"Continuar sin cuenta."</string>
+
+
+    <!---B   B   B   B-->
+    <!---view_bluetoothdevice-->
+    <string name="etBluetoothDevice">D. Bluetooth</string>
+    <string name="btnMaster">Anfitrión</string>
+    <string name="btnSlave">Invitado</string>
+
+
+    <!---C   C   C   C-->
+    <!---view_connectboard-->
+    <string name="etConnectBoard">Tablero Chessmate.</string>
+    <string name="btnConnectBoard">Conectar</string>
+
+    <!---view_createaccount-->
+    <string name="etCreateAcc">Crear cuenta</string>
+    <string name="etUserName0">Nombre de usuario:</string>
+    <string name="etUserMail">Correo:</string>
+    <string name="etUserPsw0">Contraseña:</string>
+    <string name="etUserPsw1">Contraseña:</string>
+    <string name="spNation">Nacionalidad:</string>
+
+
+    <!---D   D   D   D-->
+    <!---view_difficulty-->
+    <string name="etDifficulty">Dificultad</string>
+    <string name="tvEasy">Fácil.</string>
+    <string name="tvMedium">Intermedio.</string>
+    <string name="tvHard">Difícil.</string>
+
+
+    <!---E   E   E   E-->
+    <!---view_editprofile-->
+    <string name="etEditProfile">Editar Perfil</string>
+    <string name="btnSave">Guardar</string>
+
+
+    <!---G   G   G   G-->
+    <!---view_gamerslist-->
+    <string name="etGamersList">Lista de jugadores</string>
+    <string name="btnInvitePlayer">Invitar</string>
+    <!---adapter_gamerslist-->
+    <string name="tvPlayer">Jugador</string>
+    <string name="tvNation">Nacionalidad</string>
+    <!---Recycled String from another view-->
+    <string name="tvNationName">México</string>
+
+    <!---view_gipvia-->
+    <string name="tvIAName">NoSoyUnRobot99</string>
+    <string name="btnTime">MM:SS</string>
+
+    <!---view_gipvplocal-->
+    <!---Recycled Strings from another view/s-->
+
+    <!---view_gipvponline-->
+    <!---Recycled Strings from another view/s-->
+
+
+    <!---I   I   I   I-->
+    <!---view_intro-->
+    <string name="etChessmate">Chessmate</string>
+
+
+    <!---L   L   L   L-->
+    <!---view_login-->
+    <string name="etLogin">Iniciar sesión</string>
+    <string name="etUserName1">Nombre de usuario:</string>
+    <string name="etUserPsw">Contraseña:</string>
+
+
+    <!---M   M   M   M-->
+    <!---view_mainconfiguration-->
+    <string name="etConfig">Configuración</string>
+    <string name="btnAccept">Aceptar.</string>
+    <string name="tvAutoSaved">Guardado Automático:</string>
+    <string name="tvLocalGame">Juego local.</string>
+    <string name="tvUseBoard">Usar tablero:</string>
+    <string name="tvOnlineGame">Juego online.</string>
+    <string name="tvChat">Chat:</string>
+    <string name="tvNotif">Notificaciones:</string>
+
+    <!---view_maininterface-->
+    <string name="tvUName">"'Usuario'"</string>
+    <string name="tvChessmate">Chessmate</string>
+    <string name="btnPvIA">PvIA</string>
+    <string name="btnPvPLocal">PvP Local</string>
+    <string name="btnPvPOnline">PvP Online</string>
+
+
+    <!---P   P   P   P-->
+    <!---view_peerboard-->
+    <string name="tvLinking">Vinculando. . .</string>
+    <string name="tvUserName">MáquinaDeFuego</string>
+    <string name="tvUserStatus">Listo</string>
+    <string name="tvBoardName">Tablero Chessmate</string>
+    <string name="tvBoardStatus">En Espera</string>
+
+    <!---view_peerlocalbluetooth-->
+    <!---Recycled Strings from another view/s-->
+
+    <!---view_peerlocalwifi-->
+    <!---Recycled Strings from another view/s-->
+
+    <!---view_peeronline-->
+    <!---Recycled Strings from another view/s-->
+
+    <!---view_piecescolor-->
+    <string name="etColor">Color de piezas</string>
+    <string name="btnBlackColor">Negras.</string>
+    <string name="tvVersus">VS</string>
+    <string name="btnWhiteColor">Blancas.</string>
+
+    <!---view_preparinggame-->
+    <string name="etPrepareBoard">Preparar tablero</string>
+
+
+    <!---S   S   S   S-->
+    <!---view_savedgames-->
+    <string name="etSavedGames">Partidas guardadas</string>
+    <!---adapter_savedgames-->
+    <string name="tvGameID">ID</string>
+    <string name="tvLastStatus">Último Estado</string>
+    <string name="tvStatus">Finalizada</string>
+    <string name="tvGameName">Nombre de Partida</string>
+    <string name="tvName">Partida 1</string>
+    <string name="tvPlayer1Name">Jugador 1</string>
+    <string name="tvPlayerOneName">jorgedavalos26</string>
+    <string name="tvPlayerOnePieces">Blanco</string>
+    <string name="tvPlayerOneStatus">Gandador</string>
+    <string name="tvPlayer2Name">Jugador 2</string>
+    <string name="tvPlayerTwoName">noobmaster69</string>
+    <string name="tvPlayerTwoPieces">Negro</string>
+    <string name="tvPlayerTwoStatus">Perdedor</string>
+    <string name="tvGameMode">Modo de Juego</string>
+    <string name="tvMode">PvP Local</string>
+    <string name="tvDifficulty">--</string>
+
+    <!---view_savedmovements-->
+    <string name="etMovList">Lista de movimientos</string>
+    <string name="tvMov">Mov. #</string>
+    <string name="tvMovNumber">34</string>
+    <string name="tvUser">Jugador:</string>
+    <string name="tvUsName">"'Chessy'"</string>
+    <string name="tvPiece">Caballo</string>
+    <string name="tvX">A</string>
+    <string name="tvY">5</string>
+    <string name="gameStatus">Jaque</string>
+    <string name="etFAndI">Faltas e Interrupciones cometidas</string>
+    <string name="tvFaultAndIntText">Este texto es solo para verificar cuantos caracteres se pueden meter en este recuadro.</string>
+
+    <!--ACTIVITIES-->   <!--ACTIVITIES-->   <!--ACTIVITIES-->   <!--ACTIVITIES-->
+
+
+    <!--FRAGMENTS-->    <!--FRAGMENTS-->    <!--FRAGMENTS-->    <!--FRAGMENTS-->
+    <!---A   A   A   A-->
+    <!---fragment_fragment__another_game-->
+    <string name="tvFirstRowAnotherGame">Oponente desea jugar una</string>
+    <string name="tvSecondRowAnotherGame">nueva partida contigo...</string>
+    <string name="btnAnotherGameRetToMainInter">Salir a la Interfaz Principal</string>
+    <string name="btnAnotherGameAcceptNewGame">Aceptar una nueva partida</string>
+
+
+    <!---B   B   B   B-->
+    <!---fragment_fragment__board_conn-->
+    <string name="tvFirstRowBoardConn">¿Deseas conectarte con un</string>
+    <string name="tvSecondRowBoardConn">tablero de ajedrez</string>
+    <string name="tvThirdRowBoardConn">chessmate?</string>
+    <string name="btnBoardConnDecline">NO</string>
+    <!---Recycled Strings from another fragment/s-->
+
+
+    <!---C   C   C   C-->
+    <!---fragment_fragment__chat-->
+    <string name="etChatTitle">Chat</string>
+    <string name="etChatMessage">Mensaje.</string>
+    <string name="messagesLimit">Límite alcanzado.</string>
+
+    <!---fragment_fragment__create_account-->
+    <string name="tvFirstRowCeateAcc">¿Estas seguro de crear cuenta</string>
+    <string name="tvSecondRowCreateAcc">con estos datos?</string>
+    <string name="btnCreateAccDecline">Cancelar</string>
+    <string name="btnCreateAccAccept">SI</string>
+
+
+    <!---D   D   D   D-->
+    <!---fragment_fragment__difficulty-->
+    <string name="etDifficultyTitle">Fácil</string>
+    <string name="btnDifficulty">OK</string>
+
+
+    <!---E   E   E   E-->
+    <!---fragment_fragment__error_with_server-->
+    <!---Recycled Strings from another fragment/s-->
+    <string name="tvFirstRowErrorWithServer">Parece que no se puede</string>
+    <string name="tvSecondRowErrorWithServer">conectar con el servidor :c</string>
+    <string name="tvThirdRowErrorWithServer">Revise su conexión a Internet.</string>
+
+
+    <!---G   G   G   G-->
+    <!---fragment_fragment__game_finished-->
+    <string name="tvGameStatus">GANASTE!!!</string>
+    <string name="btnGameFinishedNewGame">Nuevo Juego</string>
+    <string name="btnGameFinishedExitGame">Salir</string>
+
+    <!---fragment_fragment__gi__pv_ia-->
+    <string name="etPauseTitle">PAUSA</string>
+    <string name="btnPvIaResume">Reanudar</string>
+    <string name="btnPvIaResign">Resignar</string>
+
+    <!---fragment_fragment__gi__pvp-->
+    <!---Recycled Strings from another fragment/s-->
+    <string name="btnPvpResume">Seguir Jugando</string>
+
+
+    <!---I   I   I   I-->
+    <string name="etIllAndInc">Movimiento Ilegal</string>
+    <string name="tvFirstRowIllAndInc">Favor de mover la pieza</string>
+    <string name="tvSecondRowIllAndInc">en el tiempo o lugar</string>
+    <string name="tvThirdRowIllAndInc">correspondiente.</string>
+    <!---Recycled Strings from another fragment/s-->
+
+
+    <!---N   N   N   N-->
+    <!---fragment_fragment__no__bluetooth_conn-->
+    <string name="tvApologize">Oooops!!!</string>
+    <string name="tvFirstRowNoBluetoothConn">Parece que se perdió la conexión</string>
+    <string name="tvSecondRowNoBluetoothConn">Bluetooth :c</string>
+    <string name="tvThirdRowNoBluetoothConn">No se podrá establecer</string>
+    <string name="tvFourthRowNoBluetoothConn">conexión con el Tablero.</string>
+
+    <!---fragment_fragment__no__wifi_conn-->
+    <!---Recycled Strings from another fragment/s-->
+    <string name="tvSecondRowNoWifiConn">Wifi :c</string>
+    <string name="tvThirdRowNoWifiConn">No se podrán guardar los</string>
+    <string name="tvFourthRowNoWifiConn">siguientes movimientos de la</string>
+    <string name="tvFifthRowNoWifiConn">Partida.</string>
+
+
+    <!---O  O   O   O-->
+    <!---fragment_fragment__opponent_disconn-->
+    <!---Recycled Strings from another fragment/s-->
+    <string name="tvFirstRowOppDisc">Oponente se desconectó de</string>
+    <string name="tvSecondRowOppDisc">la partida :c</string>
+
+
+    <!---fragment_fragment__other_interruptions-->
+    <string name="etOtherInterruptions">Error Detectado</string>
+    <string name="tvFirstRowOtherInterruptions">Se recomienda revisar si no es uno de los siguientes</string>
+    <string name="tvSecondRowOtherInterruptions">problemas:</string>
+    <string name="tvThirdRowOtherInterruptions">1.Cargador mal puesto en el tomacorriente.</string>
+    <string name="tvFourthRowOtherInterruptions">2.Cargador erróeo.</string>
+    <string name="tvFifthRowOtherInterruptions">3.Cargador de energía del sistema dañado.</string>
+    <string name="tvSixthRowOtherInterruptions">4.Fallos en la energía del lugar.</string>
+    <string name="tvSeventhRowOtherInterruptions">5.Daño del tablero.</string>
+    <string name="tvEighthRowOtherInterruptions">6.Daño del sistema electromecánico.</string>
+    <string name="tvNinthRowOtherInterruptions">7.Daño en los contactos del tablero.</string>
+    <string name="tvTenthRowOtherInterruptions">En caso de no ser alguna de las posibles causas</string>
+    <string name="tvEleventhRowOtherInterruptions">detalladas anteriormente, favor de contactarse con</string>
+    <string name="tvTwelfthRowOtherInterruptions">el soporte técnico.</string>
+    <string name="btnOtherInterrContinueWithNoBoard">Continuar sin tablero</string>
+    <string name="btnOtherInterrContinue">Continuar</string>
+
+
+    <!---P   P   P   P-->
+    <!---fragment_fragment__piece_mov_and_false_con-->
+    <string name="etPieceMovAndFalseCon">Piezas Movidas</string>
+    <string name="tvFirstRowPieceMovAndFalseCon">Favor de recolocar las</string>
+    <string name="tvSecondRowPieceMovAndFalseCon">piezas en sus lugares</string>
+    <string name="tvThirdRowPieceMovAndFalseCon">correspondientes.</string>
+
+    <!---fragment_fragment__preparing_game-->
+    <!---Recycled Strings from another fragment/s-->
+    <string name="tvFirstRowPrepGame">¿Seguro de haber</string>
+    <string name="tvSecondRowPrepGame">acomodado las piezas</string>
+    <string name="tvThirdRowPrepGame">correctamente de acuerdo a</string>
+    <string name="tvFourthRowPrepGame">su color?</string>
+
+    <!--FRAGMENTS-->    <!--FRAGMENTS-->    <!--FRAGMENTS-->    <!--FRAGMENTS-->
+
+</resources>

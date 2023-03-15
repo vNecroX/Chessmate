@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".View_MainInterface">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnConfig"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/btnPvPLocal"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="260dp"
+            android:background="@drawable/ic_baseline_settings_20px" />
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/btnPvPLocal"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="260dp"
+            android:background="@drawable/ic_account_circle_black_24dp" />
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnPvPLocal"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="264dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="240dp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="@string/tvUName" />
+
+        <TextView
+            android:id="@+id/tvChessmate"
+            android:layout_width="317dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnPvPLocal"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="66dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="150dp"
+            android:fontFamily="@font/fluent_sitkasmall"
+            android:text="@string/tvChessmate"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/colorTurquoise0" />
+
+        <Button
+            android:id="@+id/btnPvIA"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="254dp"
+            android:background="@drawable/gradient3"
+            android:fontFamily="@font/roboto_thin"
+            android:text="@string/btnPvIA"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btnPvPLocal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/btnPvIA"
+            android:layout_marginTop="22dp"
+            android:text="@string/btnPvPLocal"
+            android:textColor="#000000"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:fontFamily="@font/roboto_thin"
+            android:background="@drawable/gradient3"/>
+
+        <Button
+            android:id="@+id/btnPvPOnline"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/btnPvPLocal"
+            android:layout_marginTop="22dp"
+            android:text="@string/btnPvPOnline"
+            android:textColor="#000000"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:fontFamily="@font/roboto_thin"
+            android:background="@drawable/gradient3"/>
+
+        <Button
+            android:id="@+id/btnSavedGames"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/btnPvPOnline"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="90dp"
+            android:layout_marginEnd="160dp"
+            android:background="@drawable/ic_get_app_black_24dp" />
+
+        <Button
+            android:id="@+id/btnSquare0"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_above="@+id/btnPvPLocal"
+            android:layout_marginEnd="138dp"
+            android:layout_marginBottom="250dp"
+            android:layout_toStartOf="@+id/btnProfile"
+            android:background="@drawable/gradient5"
+            android:clickable="false"/>
+
+        <Button
+            android:id="@+id/btnSquare1"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_above="@+id/btnPvPLocal"
+            android:layout_marginEnd="128dp"
+            android:layout_marginBottom="260dp"
+            android:layout_toStartOf="@+id/btnProfile"
+            android:background="@drawable/gradient5"
+            android:clickable="false"/>
+
+        <Button
+            android:id="@+id/btnSquare2"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_above="@+id/btnPvPLocal"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="328dp"
+            android:layout_marginBottom="160dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnSquare3"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_above="@+id/btnPvPLocal"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginBottom="120dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnSquare4"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_above="@+id/btnPvPLocal"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="338dp"
+            android:layout_marginBottom="105dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnSquare5"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_above="@+id/btnPvPLocal"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginBottom="65dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnSquare6"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_above="@+id/btnPvPLocal"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="68dp"
+            android:layout_marginBottom="54dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnSquare7"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_above="@+id/btnPvPLocal"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="285dp"
+            android:layout_marginBottom="51dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnSquare8"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_above="@+id/btnPvPOnline"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginBottom="55dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnSquare9"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_above="@+id/btnPvPOnline"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="310dp"
+            android:layout_marginBottom="49dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnSquare10"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_above="@+id/btnPvPOnline"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="317dp"
+            android:layout_marginBottom="42dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnSquare11"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_above="@+id/btnSavedGames"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginBottom="55dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnSquare12"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_above="@+id/btnSavedGames"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="300dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnSquare13"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_above="@+id/btnSavedGames"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="292dp"
+            android:layout_marginBottom="-6dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnSquare14"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_above="@+id/btnSavedGames"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginBottom="-6dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnSquare15"
+            android:layout_width="24dp"
+            android:layout_height="20dp"
+            android:layout_above="@+id/btnSavedGames"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginBottom="-40dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnSquare16"
+            android:layout_width="22dp"
+            android:layout_height="20dp"
+            android:layout_above="@+id/btnSavedGames"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginBottom="-50dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnSquare17"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/btnPvPOnline"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnSquare18"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_above="@+id/btnSavedGames"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="-80dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnSquare19"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/btnPvPOnline"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="94dp"
+            android:layout_marginStart="55dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnSquare20"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/btnPvPOnline"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnSquare21"
+            android:layout_width="22dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/btnPvPOnline"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnSquare22"
+            android:layout_width="22dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/btnPvPOnline"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnSquare23"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/btnPvPOnline"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnSquare24"
+            android:layout_width="22dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/btnPvPOnline"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="105dp"
+            android:layout_marginEnd="48dp"
+            android:background="@drawable/gradient5"
+            android:clickable="false" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:id="@+id/fragmentBoardConn">
+        </FrameLayout>
+    </FrameLayout>
+
+</RelativeLayout>

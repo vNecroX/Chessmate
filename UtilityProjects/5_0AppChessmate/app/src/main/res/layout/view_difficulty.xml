@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/difficulty"
+    tools:context=".View_Difficulty">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/etDifficulty"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnPawn"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="94dp"
+            android:layout_marginEnd="94dp"
+            android:layout_marginBottom="155dp"
+            android:backgroundTint="#ffffff"
+            android:cursorVisible="false"
+            android:editable="false"
+            android:enabled="false"
+            android:fontFamily="@font/roboto_thin"
+            android:gravity="center"
+            android:hint="@string/etDifficulty"
+            android:lineHeight="0dp"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColorHint="@color/colorTurquoise0" />
+
+        <Button
+            android:id="@+id/btnPawn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_above="@+id/tvEasy"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="226dp"
+            android:layout_marginBottom="-1dp"
+            android:background="@drawable/ic_chess_pawn" />
+
+        <Button
+            android:id="@+id/btnBishop"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_above="@+id/tvMedium"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="221dp"
+            android:layout_marginBottom="-6dp"
+            android:background="@drawable/ic_bishop" />
+
+        <Button
+            android:id="@+id/btnKing"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_above="@+id/tvHard"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="228dp"
+            android:layout_marginBottom="-2dp"
+            android:background="@drawable/ic_chess_king" />
+
+        <TextView
+            android:id="@+id/tvEasy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="176dp"
+            android:layout_marginBottom="271dp"
+            android:layout_toStartOf="@+id/btnMediumInfo"
+            android:fontFamily="@font/roboto_thin"
+            android:text="@string/tvEasy"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/colorTurquoise0" />
+
+        <Button
+            android:id="@+id/btnEasyInfo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="61dp"
+            android:layout_marginBottom="204dp"
+            android:background="@drawable/ic_info_black_24dp" />
+
+        <TextView
+            android:id="@+id/tvMedium"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginBottom="141dp"
+            android:layout_toEndOf="@+id/btnEasyInfo"
+            android:fontFamily="@font/roboto_thin"
+            android:text="@string/tvMedium"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/colorTurquoise0" />
+
+        <Button
+            android:id="@+id/btnMediumInfo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="270dp"
+            android:background="@drawable/ic_info_black_24dp" />
+
+        <TextView
+            android:id="@+id/tvHard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="96dp"
+            android:layout_marginBottom="12dp"
+            android:layout_toStartOf="@+id/btnHardInfo"
+            android:fontFamily="@font/roboto_thin"
+            android:text="@string/tvHard"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/colorTurquoise0" />
+
+        <Button
+            android:id="@+id/btnHardInfo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="92dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/ic_info_black_24dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="340dp"
+    android:layout_height="322dp"
+    tools:context=".Fragment.Fragment_ErrorWithServer"
+    android:background="@drawable/gradient9">
+
+    <TextView
+        android:id="@+id/tvApologize"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/roboto_thin"
+        android:text="@string/tvApologize"
+        android:textSize="27sp"
+        android:textColor="@color/colorTurquoise0"/>
+
+    <LinearLayout
+        android:id="@+id/llErrorWitServer1"
+        android:layout_width="330dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvFirstRowErrorWithServer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvFirstRowErrorWithServer"
+            android:textSize="20sp"
+            android:fontFamily="@font/roboto_thin"
+            android:textColor="@color/colorTurquoise0" />
+
+        <TextView
+            android:id="@+id/tvSecondRowErrorWithServer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvSecondRowErrorWithServer"
+            android:textSize="20sp"
+            android:fontFamily="@font/roboto_thin"
+            android:textColor="@color/colorTurquoise0"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llErrorWitServer2"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/gradient8">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <TextView
+            android:id="@+id/tvFirstRowBlank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textSize="24sp"
+            android:fontFamily="@font/roboto_thin" />
+
+        <TextView
+            android:id="@+id/tvThirdRowErrorWithServer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/tvThirdRowErrorWithServer"
+            android:textSize="24sp"
+            android:fontFamily="@font/roboto_thin" />
+
+        <TextView
+            android:id="@+id/tvSecondRowBlank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textSize="24sp"
+            android:fontFamily="@font/roboto_thin" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnErrorWithServer"
+        android:layout_width="60dp"
+        android:layout_height="39dp"
+        android:layout_below="@+id/llErrorWitServer1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/gradient8"
+        android:fontFamily="@font/roboto_thin"
+        android:text="@string/btnDifficulty"
+        android:textSize="17sp" />
+
+</RelativeLayout>

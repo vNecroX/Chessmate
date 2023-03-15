@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/ic_bluetooth_b1"
+        android:duration="400" />
+
+    <item
+        android:drawable="@drawable/ic_bluetooth_b2"
+        android:duration="400" />
+
+    <item
+        android:drawable="@drawable/ic_bluetooth_b3"
+        android:duration="400" />
+</animation-list>

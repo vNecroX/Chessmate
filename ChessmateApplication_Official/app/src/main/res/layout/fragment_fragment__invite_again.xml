@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="100dp"
+tools:context=".Fragment_InviteAgain"
+android:background="@drawable/rounded_corners_3">
+
+    <TextView
+        android:id="@+id/tvInvitation"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="x te ha invitado de nuevo a una partida ... aceptas el reto?"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:fontFamily="@font/roboto_thin"
+        android:textSize="20sp"
+        android:layout_marginStart="40dp"/>
+
+    <Button
+        android:id="@+id/btnPlayAgain"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_corners1"
+        android:text="Aceptar"
+        android:fontFamily="@font/roboto_thin"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginStart="280dp"/>
+
+    <Button
+        android:id="@+id/btnCancelAndLeave"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_corners1"
+        android:text="Cancelar"
+        android:fontFamily="@font/roboto_thin"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginStart="280dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/create_acc"
+    tools:context=".View_CreateAccount">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/etCreateAcc"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/etUserMail"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="72dp"
+            android:layout_marginEnd="68dp"
+            android:layout_marginBottom="95dp"
+            android:backgroundTint="#ffffff"
+            android:cursorVisible="false"
+            android:editable="false"
+            android:enabled="false"
+            android:fontFamily="@font/roboto_thin"
+            android:gravity="center"
+            android:hint="@string/etCreateAcc"
+            android:lineHeight="0dp"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColorHint="@color/colorTurquoise0" />
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/etUserName"
+            android:layout_width="750dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginEnd="40dp"
+            android:backgroundTint="@color/colorTurquoise0"
+            android:cursorVisible="true"
+            android:fontFamily="@font/roboto_thin"
+            android:hint="@string/etUserName0"
+            android:lineHeight="0dp"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColorHint="#ffffff" />
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/etUserMail"
+            android:layout_width="750dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etUserName"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="40dp"
+            android:backgroundTint="@color/colorTurquoise0"
+            android:cursorVisible="true"
+            android:fontFamily="@font/roboto_thin"
+            android:hint="@string/etUserMail"
+            android:lineHeight="0dp"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColorHint="#ffffff" />
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/etUserPsw0"
+            android:layout_width="750dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etUserMail"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="40dp"
+            android:backgroundTint="@color/colorTurquoise0"
+            android:cursorVisible="true"
+            android:fontFamily="@font/roboto_thin"
+            android:hint="@string/etUserPsw0"
+            android:lineHeight="0dp"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColorHint="#ffffff" />
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/etUserPsw1"
+            android:layout_width="750dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etUserPsw0"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="40dp"
+            android:backgroundTint="@color/colorTurquoise0"
+            android:cursorVisible="true"
+            android:fontFamily="@font/roboto_thin"
+            android:hint="@string/etUserPsw1"
+            android:lineHeight="0dp"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColorHint="#ffffff" />
+
+        <TextView
+            android:id="@+id/tvNation"
+            android:layout_width="750dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etUserPsw1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="45dp"
+            android:fontFamily="@font/roboto_thin"
+            android:text="@string/spNation"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <Spinner
+            android:id="@+id/spNation"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_below="@+id/tvNation"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="45dp"
+            android:backgroundTint="@color/colorTurquoise0" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="274dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/ic_keyboard_arrow_right_black_24dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

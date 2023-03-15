@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="340dp"
+    android:layout_height="260dp"
+    tools:context=".Fragment.Fragment_PieceMovAndFalseCon"
+    android:background="@drawable/gradient9">
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/etPieceMovAndFalseCon"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="95dp"
+        android:backgroundTint="#ffffff"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:enabled="false"
+        android:fontFamily="@font/roboto_thin"
+        android:gravity="center"
+        android:hint="@string/etPieceMovAndFalseCon"
+        android:lineHeight="0dp"
+        android:singleLine="true"
+        android:textColorHint="@color/colorTurquoise0"
+        android:textSize="28sp"/>
+
+    <LinearLayout
+        android:id="@+id/llPieceMovAndFalseCon"
+        android:layout_width="330dp"
+        android:layout_height="108dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/gradient8">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tvFirstRowPieceMovAndFalseCon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/tvFirstRowPieceMovAndFalseCon"
+            android:textSize="24sp"
+            android:fontFamily="@font/roboto_thin" />
+
+        <TextView
+            android:id="@+id/tvSecondRowPieceMovAndFalseCon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/tvSecondRowPieceMovAndFalseCon"
+            android:textSize="24sp"
+            android:fontFamily="@font/roboto_thin" />
+
+        <TextView
+            android:id="@+id/tvThirdRowPieceMovAndFalseCon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/tvThirdRowPieceMovAndFalseCon"
+            android:textSize="24sp"
+            android:fontFamily="@font/roboto_thin" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="4dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnPieceMovAndFalseCon"
+        android:layout_width="320dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/gradient8"
+        android:fontFamily="@font/roboto_thin"
+        android:text="@string/btnDifficulty"
+        android:textAllCaps="false"
+        android:textSize="19sp" />
+
+</RelativeLayout>
